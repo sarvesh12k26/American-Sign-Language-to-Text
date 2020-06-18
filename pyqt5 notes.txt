@@ -1,0 +1,13 @@
+pyqt5:
+qt desinger :to add images create resource eg : test.qrc in same folder adn add images and then apply
+convert the tempalte deisgned in qt designer use the foll command in command prompt by first navigating to same destiantion folder and ocvnert int resp python file:
+python -m PyQt5.uic.pyuic -x filename.ui -o filename.py
+and change resource qrc file to rc py g=file for loading all bagrkound iamges
+pyrcc5 resource.qrc -o resource_rc.p
+   
+all files names
+ASL - LOGIN PAGE  class name
+SIGNUP - SIGNUP PAGE
+CAPTURE - COMMUNICATE PAGE
+HANDHIST - HANDHISTORGRAM PAGE
+HOMEPAGE - HOMEPAGE PAGE

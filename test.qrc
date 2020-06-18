@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="new">
+    <file>reset.png</file>
+    <file>reset.png</file>
+    <file>reset-512.png</file>
+    <file>aslnew.png</file>
+    <file>asl.png</file>
+    <file>lf.png</file>
+    <file>log.png</file>
+    <file>logoff.png</file>
+    <file>bg6.jpg</file>
+    <file>get-an-asl-expert-interpreters-unlimited-sign-language-interpreter-png-175_175.png</file>
+    <file>pg.png</file>
+    <file>tt.jpg</file>
+  </qresource>
+</RCC>
