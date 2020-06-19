@@ -18,4 +18,17 @@ Thus this removes the remaining background from the bounding box which was obtai
 <h4>3) Morphological Transforms </h4>
 This step extracts special features of the hand before passing for gesture recognition. 
 We have used morphological gradients and it highlights the edges of the hand with also variation in intensities. 
-We have preferred this over binary thresholding as it would just retain the outer shape of the hand. <br>
+We have preferred this over binary thresholding as it would just retain the outer shape of the hand.
+
+<h4>4) Gesture Recognition </h4>
+The preprocessed frame is then passed to the Convolutional Neural Network which predicts the alphabet/number. 
+Two CNN are used for predicting alphabets and numbers respectively. 
+The correct CNN to which the frame must be passed is decided by the global variable "mode".
+
+<h4>5) Word Formation and Spell Correction </h4>
+We have included more symbols such as Space - to separate the words; Switch - To switch between recognising alphabets and numbers; 
+End - To end the sentence formation. The alphabets are joined together as long as Space symbol is not encountered. 
+Then the word formed is passed to spell corrector. 
+It chooses the most likely word from a dictionary of 10000 words using a method called Edit Distance. 
+Thus an incorrect word by an edit distance of 1 or 2 can be corrected. 
+Multiple words follow the same procedure and a sentence is formed.
