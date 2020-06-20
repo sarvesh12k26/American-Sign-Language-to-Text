@@ -1,5 +1,5 @@
 # American-Sign-Language-to-Text
-Final Year Project
+BE Final Year Project
 
 This project converts American Sign Language character symbols performed by users to text. Real-time results are achieved using this system.
 
@@ -32,3 +32,25 @@ Then the word formed is passed to spell corrector.
 It chooses the most likely word from a dictionary of 10000 words using a method called Edit Distance. 
 Thus an incorrect word by an edit distance of 1 or 2 can be corrected. 
 Multiple words follow the same procedure and a sentence is formed.
+
+## ASL Symbols:
+//Enter Image here
+
+### Our own gestures to make the software complete<br>
+//Enter Image here
+
+## How to Run?
+We have created a desktop application using <b>PyQt5</b><br>
+```
+python homepage.py
+```
+This opens the mainpage of the application.<br>
+//Here would come the image
+
+<b>Click on Store Histogram:</b><br>
+  Do this step during first use of application. And use it later only if the surrounding lighting conditions change from the previous setup on further uses.<br>
+//Enter image here
+
+<b>Click on Communicate:</b></br>
+This page displays live video feed from the webcam, and the user can perform gestures to make symbol prediction.<br>
+//Enter Image Here
