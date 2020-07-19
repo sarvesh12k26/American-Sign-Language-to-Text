@@ -62,4 +62,4 @@ This page displays live video feed from the webcam, and the user can perform ges
 * [Priya Dhadda](https://github.com/pridhadda)
 * [Aayush Jain](https://github.com/AayushJain31)
 
-#### Credit to EvilPort2 as his repository helped us initially on how we could about the project.
+#### Credit to EvilPort2 as his repository helped us initially on how we could go about the project.
