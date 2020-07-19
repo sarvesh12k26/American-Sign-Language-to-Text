@@ -55,3 +55,11 @@ This opens the mainpage of the application.<br>
 <b>Click on Communicate:</b></br>
 This page displays live video feed from the webcam, and the user can perform gestures to make symbol prediction.<br>
 ![Alt text](images/gestrecognition.PNG?raw=true "Title")
+
+### Developed by:
+* [Sarvesh Joglekar](https://github.com/sarvesh12k26)
+* [Hrishikesh Sawant](https://github.com/sawanthrishi)
+* [Priya Dhadda](https://github.com/pridhadda)
+* [Aayush Jain](https://github.com/AayushJain31)
+
+#### Credit to EvilPort2 as his repository helped us initially on how we could about the project.
