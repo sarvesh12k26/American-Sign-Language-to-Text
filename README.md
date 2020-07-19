@@ -34,10 +34,10 @@ Thus an incorrect word by an edit distance of 1 or 2 can be corrected.
 Multiple words follow the same procedure and a sentence is formed.
 
 ## ASL Symbols:
-//Enter Image here
+![Alt text](images/asl-symbols.jpg?raw=true "Title")
 
 ### Our own gestures to make the software complete<br>
-//Enter Image here
+![Alt text](images/asl-symbols-extra.png?raw=true "Title")
 
 ## How to Run?
 We have created a desktop application using <b>PyQt5</b><br>
@@ -45,12 +45,13 @@ We have created a desktop application using <b>PyQt5</b><br>
 python homepage.py
 ```
 This opens the mainpage of the application.<br>
-//Here would come the image
+![Alt text](images/mainpage.PNG?raw=true "Title")
 
 <b>Click on Store Histogram:</b><br>
   Do this step during first use of application. And use it later only if the surrounding lighting conditions change from the previous setup on further uses.<br>
-//Enter image here
+![Alt text](images/handhistagain2.png?raw=true "Title")
+
 
 <b>Click on Communicate:</b></br>
 This page displays live video feed from the webcam, and the user can perform gestures to make symbol prediction.<br>
-//Enter Image Here
+![Alt text](images/gestrecognition.PNG?raw=true "Title")
